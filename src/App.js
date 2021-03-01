@@ -9,6 +9,7 @@ import Login from './components/authorization/Login/Login';
 import Signup from './components/authorization/Signup/Signup';
 import Categories from './components/categories/Categories';
 import ContactForm from './components/ContactForm';
+import TweetList from './components/TweetList';
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
           <Route path="/home" component={Home}/>
           <Route path="/signup" component={Signup}/>
           <Route path="/contactUs" component={ContactForm}/>
+          <Route path="/browse" component={TweetList}/>
+
         </Switch>
 
       </div>
